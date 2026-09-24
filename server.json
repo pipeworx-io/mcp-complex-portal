@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/complex-portal",
   "title": "Complex Portal",
   "description": "EBI Complex Portal MCP.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/complex-portal",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-complex-portal",
