@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-complex-portal",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "EBI Complex Portal MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-869811a141c4ec3dcf35f3a0e59a69fcfe2c46aca4711d0dc60cba3253d8c897",
-    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
+    "sourceHash": "v1-3bb090a60fe28277be1d89a3a31d66fe13a864b72ce98c416eec362a98074b66",
+    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
   }
 }
