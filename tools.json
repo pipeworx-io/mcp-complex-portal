@@ -1,0 +1,38 @@
+[
+  {
+    "name": "search_complexes",
+    "description": "Search the EBI Complex Portal — a manually curated database of stable macromolecular protein complexes — by protein/complex name, gene, GO term, or biological process (e.g. \"apoptosis\", \"SCF\", \"ribosome\"). Returns matching complexes with their accession (e.g. CPX-7762), name, description, and organism. Keyless. Complements UniProt/IntAct/STRING.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Protein/complex name, gene, or GO term, e.g. \"apoptosis\", \"SCF\", \"ribosome\"."
+        },
+        "limit": {
+          "type": "number",
+          "description": "Max results to return (default 15, max 100)."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "get_complex",
+    "description": "Get a single Complex Portal record by its accession (e.g. CPX-7762). Returns the complex's participants (subunits) with UniProt identifiers, biological roles and stoichiometry, plus systematic name, function, species, and description. Keyless. Complements UniProt/IntAct/STRING.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "A complex accession like \"CPX-7762\"."
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  }
+]
