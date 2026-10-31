@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-complex-portal",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "EBI Complex Portal MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "complex-portal",
     "gatewaySlug": "complex-portal",
-    "sourceHash": "v1-956f445316dbc108bfffe03c80bf6e95ad4cc6c6ed583c2cb491bab933971881",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-bcc16658870b2f1ea7c4eb5e9057c715e0d62247fd5e7adcbe68d82ecbe24c92",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
